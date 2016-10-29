@@ -25,8 +25,8 @@ namespace Sandbox
             // YOUR JOB: Add code to calculate the correct change
 
 
-            Console.WriteLine("Your change is {0} 1-kr coins, {1} 10-kr coins and {2} 100-kr bills", noOf1krCoins, noOf10krCoins, noOf100krBills);
-            Console.WriteLine("A total of {0} kr", changeToPayBack);
+            Console.WriteLine($"Your change is {noOf1krCoins} 1-kr coins, {noOf10krCoins} 10-kr coins and {noOf100krBills} 100-kr bills");
+            Console.WriteLine($"A total of {changeToPayBack} kr");
 
 
             // The LAST line of code should be ABOVE this line
